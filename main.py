@@ -40,12 +40,31 @@ def complete_task():
         print("Please enter a valid number.")
 
 
+def delete_task():
+    show_tasks()
+
+    if not tasks:
+        return
+
+    try:
+        number = int(input("Enter task number to delete: "))
+
+        if 1 <= number <= len(tasks):
+            removed = tasks.pop(number - 1)
+            print(f"Deleted task: {removed['title']}")
+        else:
+            print("Invalid task number.")
+    except ValueError:
+        print("Please enter a valid number.")
+
+
 while True:
     print("\n--- Python Task Manager ---")
     print("1. View tasks")
     print("2. Add task")
     print("3. Complete task")
     print("4. Exit")
+    print("5. Delete task")
 
     choice = input("Choose an option: ").strip()
 
@@ -58,5 +77,7 @@ while True:
     elif choice == "4":
         print("Goodbye!")
         break
+    elif choice == "5":
+        delete_task()
     else:
         print("Invalid choice. Try again.")
