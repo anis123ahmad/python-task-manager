@@ -16,3 +16,5 @@ A beginner Python project for learning Git and GitHub.
 
 ```bash
 python main.py
+
+This project is my Git learning exercise.
