@@ -22,3 +22,5 @@ This project is my Git learning exercise.
 ## Git Practice
 
 I am learning Git branches and commits with Python.
+
+Project status: Developed by Developer A.
