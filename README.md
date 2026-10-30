@@ -21,6 +21,10 @@ This project is my Git learning exercise.
 
 ## Git Practice
 
+<<<<<<< HEAD
 I am learning Git branches and commits with Python.
 
 Project status: Developed by Developer A.
+=======
+Project status: Developed by Developer A and Developer B.
+>>>>>>> feature-developer-b
