@@ -18,3 +18,7 @@ A beginner Python project for learning Git and GitHub.
 python main.py
 
 This project is my Git learning exercise.
+
+## Git Practice
+
+I am learning Git branches and commits with Python.
