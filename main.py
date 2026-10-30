@@ -1,3 +1,4 @@
+# Working on task priority feature
 
 tasks = []
 
@@ -38,6 +39,10 @@ def complete_task():
             print("Invalid task number.")
     except ValueError:
         print("Please enter a valid number.")
+
+
+def show_task_count():
+    print(f"Total tasks: {len(tasks)}")
 
 
 def delete_task():
