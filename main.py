@@ -1,3 +1,4 @@
+# Working on task priority feature
 
 tasks = []
 
@@ -17,7 +18,7 @@ def add_task():
 
     if title:
         tasks.append({"title": title, "completed": False})
-        print("Task added successfully.")
+        print("New task successfully added!")
     else:
         print("Task name cannot be empty.")
 
@@ -38,6 +39,10 @@ def complete_task():
             print("Invalid task number.")
     except ValueError:
         print("Please enter a valid number.")
+
+
+def show_task_count():
+    print(f"Total tasks: {len(tasks)}")
 
 
 def delete_task():
