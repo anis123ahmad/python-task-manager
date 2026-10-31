@@ -18,7 +18,7 @@ def add_task():
 
     if title:
         tasks.append({"title": title, "completed": False})
-        print("Task added successfully.")
+        print("New task successfully added!")
     else:
         print("Task name cannot be empty.")
 
